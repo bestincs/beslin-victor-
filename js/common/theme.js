@@ -126,7 +126,7 @@ export const theme = (() => {
         if (isDarkMode()) {
             onDark();
         } else {
-            onLight();
+            onDark();
         }
     };
 
