@@ -1,0 +1,75 @@
+.form-control {
+    border-width: 1px;
+    border-top-color: #bdc0c7;
+    box-shadow: none;
+    padding: 10px 12px;
+    margin: 5px 0px;
+    font-size: 1rem;
+    transition: none;
+    height: 3rem;
+}
+
+label {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 5px 0px;
+    color: #3f51ba;
+}
+
+.side-nav-module-name {
+    padding: 20px;
+    font-weight: 700;
+}
+
+
+.has-error .help-block,
+.has-error .file-preview,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #FF393F;
+}
+
+.has-error .control-label,
+.has-success .control-label {
+    color: #292727;
+}
+
+.has-success .form-control {
+    border-width: 1.5px;
+    border-color: #367CFF;
+    opacity: 1;
+}
+
+.has-error .form-control {
+    background-color: #fff2f2;
+    border-width: 1.5px;
+    border-color: #ff8285;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+#alertpos {
+    color: #bdc0c7;
+    padding-top: 13px;
+}
+
+.has-success .form-control:focus {
+    box-shadow: none;
+    border-color: #367CFF;
+}
+
+.has-error .form-control:focus {
+    box-shadow: none;
+    border-color: #2d3881;
+}
